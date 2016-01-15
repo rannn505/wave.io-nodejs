@@ -1,6 +1,6 @@
-[<img height="50" width="50" src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](http://google.com)
-<p> The Node.JS server-side module to interact with [wave.io](https://github.com/rannn505/wave.io) </p>
-[![Version npm](https://img.shields.io/npm/v/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io.svg?style=flat-square)](https://www.npmjs.com/package/wave.io)[![Dependencies](https://img.shields.io/david/rannn505/wave.io.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io)
+[<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](https://github.com/rannn505/wave.io)<br/>
+The Node.JS server-side module to interact with [wave.io](https://github.com/rannn505/wave.io)<br/>
+[![Version npm](https://img.shields.io/npm/v/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![Dependencies](https://img.shields.io/david/rannn505/wave.io-server.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io-server)
 
 ## Installation
 
@@ -35,9 +35,9 @@ The flow of this example:
 Client->Server: Lets open a WebSocket connection
 Server->Client: Ok, its open now!
 Client->Server: { method: 'POST', uri: '/postest', data: {wave:"Is Awesome"}, reswaiter: true }
-Note left of Server: The callback has called and the `req arg` has all this data
+Server: The callback has called and the `req arg` has all this data
 Server->Client: { method: 'POST', uri: '/postest', data: 'Ya I Know'} via the `res.send function`
-Note right of Client: The callback has called and the `data arg` has all this data
+Client: The callback has called and the `data arg` has all this data
 ```
 
 ## Contribute
