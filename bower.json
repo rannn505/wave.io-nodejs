@@ -1,0 +1,38 @@
+{
+  "name": "wave.io-server",
+  "description": "The Node.JS server-side module to interact with wave.io",
+  "main": "index.js",
+  "authors": [
+    "Ran Cohen <rannn505@outlook.com>"
+  ],
+  "dependencies": {
+    "ws": "^1.0.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "wave",
+    "wave.io",
+    "wave.io-server",
+    "wave.io-nodejs",
+    "server",
+    "node",
+    "websocket",
+    "ws",
+    "http",
+    "http",
+    "syntax",
+    "syntax",
+    "fast",
+    "communicate"
+  ],
+  "homepage": "https://github.com/rannn505/wave.io-nodejs",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/img/**",
+    "assets/tests/**",
+    ".idea/**"
+  ]
+}

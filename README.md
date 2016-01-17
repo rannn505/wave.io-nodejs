@@ -1,11 +1,15 @@
 [<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](https://github.com/rannn505/wave.io)<br/>
 The Node.JS server-side module to interact with [wave.io](https://github.com/rannn505/wave.io)<br/>
-[![Version npm](https://img.shields.io/npm/v/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![Dependencies](https://img.shields.io/david/rannn505/wave.io-server.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io-server)
+[![Version npm](https://img.shields.io/npm/v/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![Dependencies](https://img.shields.io/david/rannn505/wave.io-server.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io-nodejs)
 
 ## Installation
-
+- NPM:
 ```bash
 $ npm install wave.io-server
+```
+- bower:
+```bash
+bower install wave.io-server
 ```
 
 ## Quick start
@@ -30,7 +34,7 @@ router.post('/postest',function(req,res){
     res.send('Ya I Know');
 });
 ```
-The flow of this example:
+The flow of this example:<br/>
 <img src="https://raw.githubusercontent.com/rannn505/wave.io-nodejs/master/assets/wave.io-sequence-example.png">
 
 ## Contribute
