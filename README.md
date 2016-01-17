@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io.png">](https://github.com/rannn505/wave.io)<br/>
 The Node.JS server-side module to interact with [wave.io](https://github.com/rannn505/wave.io)<br/>
-[![Version npm](https://img.shields.io/npm/v/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![Dependencies](https://img.shields.io/david/rannn505/wave.io-server.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io-nodejs)
+[![Version npm](https://img.shields.io/npm/v/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![NPM Downloads](https://img.shields.io/npm/dt/wave.io-server.svg?style=flat-square)](https://www.npmjs.com/package/wave.io-server)[![Dependencies](https://img.shields.io/david/rannn505/wave.io-nodejs.svg?style=flat-square)](https://david-dm.org/rannn505/wave.io-nodejs)
 
 ## Installation
 - NPM:
@@ -46,6 +46,9 @@ Your more then welcome to email me any time <Rannn505@outlook.com>
 ## Credits
 
 wave.io-nodejs using the awesome [ws](https://github.com/websockets/ws) of Einar Otto Stangvik.
+
+Don't forget a Star :)
+[![GitHub Star](https://img.shields.io/github/stars/rannn505/wave.io-nodejs.svg?style=social&label=Star)](https://github.com/rannn505/wave.io-nodejs)
 
 
 ## License
