@@ -31,14 +31,7 @@ router.post('/postest',function(req,res){
 });
 ```
 The flow of this example:
-```sequence
-Client->Server: Lets open a WebSocket connection
-Server->Client: Ok, its open now!
-Client->Server: { method: 'POST', uri: '/postest', data: {wave:"Is Awesome"}, reswaiter: true }
-Server: The callback has called and the `req arg` has all this data
-Server->Client: { method: 'POST', uri: '/postest', data: 'Ya I Know'} via the `res.send function`
-Client: The callback has called and the `data arg` has all this data
-```
+<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io-sequence.svg">
 
 ## Contribute
 
