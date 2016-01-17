@@ -31,7 +31,7 @@ router.post('/postest',function(req,res){
 });
 ```
 The flow of this example:
-<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io-sequence.svg">
+<img src="https://raw.githubusercontent.com/rannn505/wave.io/master/assets/wave.io sequence diagram.png">
 
 ## Contribute
 
