@@ -1,8 +1,13 @@
 /**
- * Created by RAN on 01/01/2016.
+ * The Node.JS server-side module to interact with wave.io.
+ * @name wave.io-server
+ * @version v1.0.0 - 02-01-2016
+ * @link https://github.com/rannn505/wave.io-nodejs
+ * @author rannn505 <rannn505@outlook.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 
-const MODULE_NAME = 'pulse.io';
+const MODULE_NAME = 'wave.io';
 
 var Listener = require('./lib/listener');
 var ResObj = require('./lib/responseobject');

@@ -7,7 +7,7 @@ The Node.JS server-side module to interact with [wave.io](https://github.com/ran
 ```bash
 $ npm install wave.io-server
 ```
-- bower:
+- Bower:
 ```bash
 bower install wave.io-server
 ```
@@ -54,4 +54,5 @@ Don't forget a Star :)
 ## License
 
   [MIT](LICENSE)
-
+  wave.io project (c)2016 Ran Cohen
+  
